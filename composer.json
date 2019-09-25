@@ -1,0 +1,43 @@
+{
+    "name": "bionconnection/movistarm2mglobal",
+    "description": ":description",
+    "license": "EUPL-1.1",
+    "authors": [
+        {
+            "name": "Ivan berthillood",
+            "email": "ivan.sys@grupobion.com",
+            "homepage": "http://connect.grupobion.com/"
+        }
+    ],
+    "homepage": "https://github.com/bionconnection/movistarm2m",
+    "keywords": ["Laravel", "MovistarM2M"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BionConnection\\MovistarM2Mglobal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BionConnection\\MovistarM2Mglobal\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BionConnection\\MovistarM2Mglobal\\MovistarM2MglobalServiceProvider"
+            ],
+            "aliases": {
+                "MovistarM2Mglobal": "BionConnection\\MovistarM2Mglobal\\Facades\\MovistarM2Mglobal"
+            }
+        }
+    }
+}
