@@ -1,4 +1,4 @@
-# MovistarM2Mglobal
+# MovistarM2M
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require luiscastror9/movistarm2mglobal
+$ composer require bionconnection/movistarm2m
 ```
 
 ## Usage

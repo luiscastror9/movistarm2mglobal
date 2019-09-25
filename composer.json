@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/luiscastror9/movistarm2mglobal",
-    "keywords": ["Laravel", "MovistarM2Mglobal"],
+    "keywords": ["Laravel", "MovistarM2M"],
     "require": {
         "illuminate/support": "~5"
     },
@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "BionConnection\\MovistarM2Mglobal\\": "src/"
+            "luiscastror9\\MovistarM2Mglobal\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BionConnection\\MovistarM2Mglobal\\Tests\\": "tests"
+            "luiscastror9\\MovistarM2Mglobal\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "BionConnection\\MovistarM2Mglobal\\MovistarM2MglobalServiceProvider"
+                "luiscastror9\\MovistarM2Mglobal\\MovistarM2MglobalServiceProvider"
             ],
             "aliases": {
-                "MovistarM2Mglobal": "BionConnection\\MovistarM2Mglobal\\Facades\\MovistarM2Mglobal"
+                "MovistarM2Mglobal": "luiscastror9\\MovistarM2Mglobal\\Facades\\MovistarM2Mglobal"
             }
         }
     }

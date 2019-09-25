@@ -36,7 +36,7 @@ class MovistarM2MglobalServiceProvider extends ServiceProvider {
 
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
 
-            $loader->alias('MovistarM2Mglobal', 'BionConnection\MovistarM2Mglobal\Facades\MovistarM2Mglobal');
+            $loader->alias('MovistarM2Mglobal', 'luiscastror9\MovistarM2Mglobal\Facades\MovistarM2Mglobal');
         });
         $this->publishes([
             dirname(__FILE__) . '/../config/MovistarM2Mglobal.php' => config_path('MovistarM2Mglobal.php'),
