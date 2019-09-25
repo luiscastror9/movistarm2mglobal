@@ -1,5 +1,5 @@
 {
-    "name": "bionconnection/movistarm2mglobal",
+    "name": "luiscastror9/movistarm2mglobal",
     "description": ":description",
     "license": "EUPL-1.1",
     "authors": [
@@ -9,8 +9,8 @@
             "homepage": "http://connect.grupobion.com/"
         }
     ],
-    "homepage": "https://github.com/bionconnection/movistarm2m",
-    "keywords": ["Laravel", "MovistarM2M"],
+    "homepage": "https://github.com/luiscastror9/movistarm2mglobal",
+    "keywords": ["Laravel", "MovistarM2Mglobal"],
     "require": {
         "illuminate/support": "~5"
     },
