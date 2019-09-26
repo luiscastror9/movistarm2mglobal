@@ -1,6 +1,6 @@
 <?php
 
-namespace BionConnection\MovistarM2Mglobal;
+namespace luiscastror9\MovistarM2Mglobal;
 
 use Illuminate\Support\ServiceProvider;
 
